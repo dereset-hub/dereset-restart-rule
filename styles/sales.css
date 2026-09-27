@@ -97,7 +97,7 @@ p { margin: 0 0 1.1rem; }
   display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: .6rem 1.25rem;
 }
 .trust-strip li { display: flex; align-items: center; gap: .5rem; }
-.trust-strip li::before { content: ""; width: 8px; height: 8px; border-radius: 50%; background: var(--gold); flex: none; }
+.trust-icon { display: inline-grid; place-items: center; width: 20px; height: 20px; flex-shrink: 0; border-radius: 50%; background: var(--gold); color: var(--charcoal); font-size: .7rem; font-weight: 700; }
 
 /* Pain / agitation */
 .pull-quote {
